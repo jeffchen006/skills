@@ -23,14 +23,8 @@ Usage notes:
 <available_skills>
 
 <skill>
-<name>doc-coauthoring</name>
-<description>Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.</description>
-<location>project</location>
-</skill>
-
-<skill>
-<name>docx</name>
-<description>"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"</description>
+<name>edge-tts</name>
+<description>|</description>
 <location>project</location>
 </skill>
 
@@ -43,12 +37,6 @@ Usage notes:
 <skill>
 <name>pdf</name>
 <description>Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.</description>
-<location>project</location>
-</skill>
-
-<skill>
-<name>skill-creator</name>
-<description>Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.</description>
 <location>project</location>
 </skill>
 
